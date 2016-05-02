@@ -52,9 +52,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DreamConcert.cs" />
+    <Compile Include="Models\Album.cs" />
+    <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\Artist.cs" />
     <Compile Include="Models\ChinookContext.cs" />
+    <Compile Include="Models\Invoice.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
