@@ -13,7 +13,7 @@ namespace BasicEntityFrameworkDataAccess
     {
         static void Main(string[] args)
         {
-            Database.SetInitializer<ChinookContext>(null);
+           // Database.SetInitializer<ChinookContext>(null);
 
             ChinookContext dbContext = new ChinookContext();
             //TODO: Refactor-these queries need to be separated out into their own class or classes
